@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200&display=swap');
+
+
+
+
+* {
+box-sizing: border-box;
+padding: 0px;
+margin: 0px;
+flex-grow: 1px;
+flex-basis: 50px;
+
+
+}
+body{
+    background-image:image('city.jpg'); 
+    
+
+}
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #f2f2f2;
+    height: 100px;
+    cursor: pointer;
+
+}
+.logo{
+    font-family: Dosis;
+
+height: auto;
+    width: 200px;
+   text-decoration:black solid  ;
+   font-weight: 900;
+   font-size: 25px;
+    
+}
+  
+
+.nav-links{
+    display: flex;
+    justify-content:space-around;
+    list-style: none;
+    align-items: center;
+
+}
+.nav-links li{
+    color: black; 
+    font-family: Dosis;
+    font-size: 16px;
+    font-weight: 400px;
+
+}
+
+a,button:hover{
+    color: black;
+    text-decoration: none;
+    font-family: Dosis;
+    margin-right: 15px;
+}
+
+.contact{
+  
+    height: auto;
+    padding: 8px;
+    width:100px;
+    
+    border-radius:10px;
+    background-color: #f2f2f2;
+        
+        
+       
+        
+        
+    }
+    
+    
+    
+.container{
+
+    display: flex;
+        position: relative;
+ 
+      
+
+}
+.image{
+
+    filter: hue-rotate(73deg) brightness(50%);
+    height:auto;
+  width: 100%;
+     
+opacity:90% ;
+    
+}
+.text{
+    position: absolute;
+  
+   top: 60%;
+ left:28%;;
+    
+  transform: translate(-50%, -50%);
+  
+  font-family: Dosis;
+  color: #f2f2f2;
+}
+    p{
+        
+font-size: 20px;
+
+    }
+
+    h1{
+        font-size: 35px ;
+        
+        font-weight: 800%;
+    }
+    .icons{
+        background-color: #f2f2f2;
+        
+
+    }
+
+    .icons div{ 
+    display: flex;
+    align-items: center;
+    height: 50px;
+    justify-content: flex-end;
+    
+    
+
+           
+  
+    cursor: pointer;
+    
+
+    
+   
+    
+}
